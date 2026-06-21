@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+client_secret*.json
+token.json
+.ytm-like/
+.gradle/
+**/build/
+local.properties
+*.log
+.idea/
+.vscode/
+.DS_Store
