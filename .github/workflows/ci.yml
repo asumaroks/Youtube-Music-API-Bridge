@@ -43,7 +43,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - working-directory: wear-diagnostic
         run: ./gradlew :app:assembleDebug
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: android-session-bridge-debug
           path: wear-diagnostic/app/build/outputs/apk/debug/app-debug.apk
